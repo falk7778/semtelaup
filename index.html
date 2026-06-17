@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo 2 de 2 - Não feche essa página</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-light">
+
+    <!-- Warning Banner -->
+    <div class="warning-banner">
+        <i data-lucide="alert-triangle"></i>
+        <span><strong>ESPERE!</strong> Seu pedido ainda NÃO está completo. Não feche essa página ou atualize o navegador.</span>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 85%;"></div>
+        </div>
+        <p class="progress-text">Passo 2 de 2: Quase lá...</p>
+    </div>
+
+    <!-- Upsell Content -->
+    <section class="upsell-section">
+        <div class="upsell-container text-center">
+            
+            <h1 class="upsell-headline">
+                Você garantiu horas de diversão... mas para ela <span class="text-rose text-highlight">NUNCA MAIS querer olhar para um celular</span>, você precisa desse Upgrade.
+            </h1>
+            
+            <p class="upsell-subheadline">
+                Eu preciso ser totalmente sincero: ela vai montar as 10 casinhas mais rápido do que você imagina. E quando acabar? Transforme o quarto dela em uma <strong>Metrópole de Papel!</strong>
+            </p>
+            
+            <!-- Product Image / VSL Placeholder -->
+            <div class="upsell-image-wrapper">
+                <img src="https://placehold.co/600x400/ffe4e6/e11d48?text=Foto+do+Kit+Cidade+Completa" alt="A Cidade Completa - 40 Novos Cenários" />
+                <div class="upsell-badge">OFERTA ÚNICA DE UPGRADE</div>
+            </div>
+
+            <div class="upsell-pitch">
+                <h3>O Mega Pacote: "A Cidade Completa" (+40 Cenários Inéditos)</h3>
+                <p>
+                    Para que o encanto nunca acabe, nós criamos o maior pacote de expansão do mercado. Ela vai levar as bonequinhas para passear na cidade inteira!
+                </p>
+                <ul class="upsell-benefits">
+                    <li><i data-lucide="check-circle-2"></i> <strong>Supermercado:</strong> Com prateleiras, mini-comidas e carrinho de compras.</li>
+                    <li><i data-lucide="check-circle-2"></i> <strong>Hospital & Escola:</strong> Para ela ser médica ou professora por um dia.</li>
+                    <li><i data-lucide="check-circle-2"></i> <strong>Pet Shop Mágico:</strong> Com dezenas de cachorrinhos e gatinhos.</li>
+                    <li><i data-lucide="check-circle-2"></i> <strong>Salão de Beleza:</strong> Para trocar o visual de todas as bonecas.</li>
+                </ul>
+                
+                <p class="upsell-price-box">
+                    Adicione a Cidade Completa ao seu pedido agora por apenas<br>
+                    <span class="price-highlight">R$ 37,00</span>
+                </p>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="upsell-actions">
+                <a href="#" class="btn-primary pulsing-btn btn-large btn-accept">
+                    <span class="btn-main-text">SIM! EU QUERO A CIDADE COMPLETA</span>
+                    <span class="btn-sub-text">Cobrar R$ 37,00 no meu cartão atual</span>
+                </a>
+                
+                <a href="#" class="btn-decline">
+                    Não, obrigado. Eu prefiro o pacote normal e assumo o risco dela enjoar rápido das casinhas.
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Compra 100% Segura. Seus dados estão protegidos.</p>
+        <p class="mt-2">&copy; 2026 Kit Casinhas de Papel.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
