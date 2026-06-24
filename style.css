@@ -256,7 +256,7 @@ body {
 /* Benefits Section */
 .benefits-section { padding: 3rem 0; background: linear-gradient(to bottom, var(--color-white), #fffbeb); }
 .benefits-grid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; max-width: 1000px; margin: 0 auto; }
-@media(min-width: 768px) { .benefits-grid { grid-template-columns: 1fr 1fr; gap: 2.5rem; } }
+/* Desktop layout disabled for 100% mobile */
 
 .benefit-card { background: var(--color-white); padding: 2rem; border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); border-bottom: 6px solid transparent; text-align: center; transition: transform 0.3s; }
 .benefit-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-xl); }
@@ -294,7 +294,7 @@ body {
 /* Bonuses Section */
 .bonuses-section { padding: 4rem 0; background: linear-gradient(to bottom, #fff1f2, #fce7f3, #fff1f2); }
 .bonuses-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; max-width: 1100px; margin: 0 auto; }
-@media(min-width: 1024px) { .bonuses-grid { grid-template-columns: 1fr 1fr; gap: 2.5rem; } }
+/* Desktop layout disabled for 100% mobile */
 .bonus-card { background: var(--color-white); padding: 1.5rem; border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); border: 3px solid #fbcfe8; display: flex; flex-direction: column; gap: 1rem; align-items: center; text-align: center; transition: transform 0.3s; }
 @media(min-width: 640px) { .bonus-card { flex-direction: row; text-align: left; align-items: flex-start; } }
 .bonus-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-xl); border-color: #f9a8d4; }
@@ -311,7 +311,7 @@ body {
 /* Pricing Section */
 .pricing-section { padding: 4rem 0; background: linear-gradient(to bottom, #fff1f2, var(--color-white)); }
 .pricing-cards { display: flex; flex-direction: column; gap: 2rem; max-width: 1000px; margin: 0 auto; align-items: stretch; justify-content: center; }
-@media(min-width: 1024px) { .pricing-cards { flex-direction: row; align-items: center; gap: 3rem; } }
+/* Desktop layout disabled for 100% mobile */
 
 .pricing-card { background: var(--color-white); border-radius: var(--radius-xl); padding: 1.5rem; display: flex; flex-direction: column; box-shadow: var(--shadow-lg); position: relative; }
 .basic-card { border: 3px solid #f1f5f9; width: 100%; max-width: 450px; margin: 0 auto; }
