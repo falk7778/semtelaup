@@ -1,3 +1,10 @@
+// Set current date on top banner
+const dataAtualSpan = document.getElementById('data-atual');
+if (dataAtualSpan) {
+    const hoje = new Date();
+    dataAtualSpan.textContent = hoje.toLocaleDateString('pt-BR');
+}
+
 // Initialize Lucide Icons
 lucide.createIcons();
 
